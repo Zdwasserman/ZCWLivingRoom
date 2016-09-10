@@ -15,7 +15,7 @@ public class Television {
         return volume;
     }
     public void setVolume(Integer amount){
-        this.volume = volume;
+        this.volume = amount;
     }
 
 }

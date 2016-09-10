@@ -18,7 +18,8 @@ public class TelevisionTest {
     @Test
     public void setVolumeTest(){
         Television television = new Television();
-        Integer expectedValue = 0;
+        Integer expectedValue = 5;
+
         Integer actualValue = television.getVolume();
         assertEquals("The value should be null",expectedValue,actualValue);
     }
